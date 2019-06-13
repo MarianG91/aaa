@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">	
+    <head>
+     
+        <meta charset="utf-8">
+        <title>Portamisu</title>
+       
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">    
+    </head>
+    
+          
+    <body>
+  <div id="navbar">
+                 <ul class="menu">
+                  
+                    
+                     
+                    <li>  <a href="pagine/pag1.html">Chi siamo</a> </li>
+                    
+                     <li>  <a href="#">Prodotti</a> 
+                 
+                    </li>
+   
+                     <li>  <a href="#">Eventi</a> 
+                  
+                    </li>
+                    
+                    <li>  <a href="pagine/storia.html">Storia</a> </li>
+                     <li>  <a href="#">Home</a> </li>
+                  
+											
+                </ul>
+           </div>
+       
+        <div id="fine">
+    
+
+
+             </div>
+                <div id="footer">
+                    <a href="index.html">
+                <img src="img/home.png" alt="home" style="width:42px;height:42px;border:0;">
+                </a>
+            </div>
+            
+        
+ 
+    </body>
+       
+        <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+     
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</html>
